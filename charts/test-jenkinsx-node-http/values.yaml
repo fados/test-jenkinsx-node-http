@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.97.104.81:5000/ofadeyi/test-jenkinsx-node-http
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: test-jenkinsx-node-http
